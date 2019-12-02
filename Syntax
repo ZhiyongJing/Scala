@@ -1,0 +1,62 @@
+1.	Scala is a pure object-oriented language in the sense that every value is an object. Types and behavior of objects are described by classes and traits. Classes are extended by sub-classing and a flexible mix-in-based composition mechanism as a clean replacement for multiple inheritance. Scala is also a functional language in the sense that every function is a value. Scala provides a lightweight syntax for defining anonymous functions, it supports higher-order functions, it allows functions to be nested, and supports currying. Scala’s case classes and its built-in support for pattern matching model algebraic types used in many functional programming languages. Singleton objects provide a convenient way to group functions that aren’t members of a class.
+//////////////////////////////////////////////////////////////////////////////////////
+2.	Scala programs can convert to byte-codes and can run on the JVM(Java Virtual Machine). Scala stands for Scalable language. It also provides the Java-script run-times. Scala is highly influenced by Java and some other programming languages like Lisp, Haskell, Pizza etc. Scala contains the features of different languages like C, C++, Java etc. which makes the it more useful, scalable and productive. The source code of the Scala is designed in such a way that its compiler can interpret the Java classes. Also, Its compiler can utilize the frameworks, Java Libraries, and tools etc. After compilation, Scala programs can run on JVM. For the web applications it provides the support by compiling to JavaScript. Similarly for desktop applications, it can be compiled to JVM byte-code. Scala programs get converted into .class file which contains Java Byte Code after the successful compilation and then can run on JVM(Java Virtual Machine).
+//////////////////////////////////////////////////////////////////////////////////////
+3.	There are many features which makes it different from other languages.
+	1)	Object- Oriented: Every value in Scala is an object so it is a purely object-oriented programming language. The behavior and type of objects are depicted by the classes and traits in Scala.
+	2)	Functional: It is also a functional programming language as every function is a value and every value is an object. It provides the support for the high-order functions, nested functions, anonymous functions etc.
+	3)	Statically Typed: The process of verifying and enforcing the constraints of types is done at compile time in Scala. Unlike other statically typed programming languages like C++, C etc., Scala doesn’t expect the redundant type information from the user. In most cases, the user has no need to specify a type.
+	4)	Extensible: New language constructs can be added to Scala in form of libraries. Scala is designed to interpolate with the JRE(Java Runtime Environment).
+	5)	Concurrent & Synchronize Processing: Scala allows the user to write the codes in an immutable manner that makes it easy to aplly the parallelism(Synchronize) and concurrency.
+	6)	Run on JVM & Can Execute Java Code: Java and Scala have a common runtime environment. So the user can easily move from Java to Scala. The Scala compiler compiles the program into .class file, containing the Bytecode that can be executed by JVM. All the classes of Java SDK can be used by Scala. With the help of Scala user can customize the Java classes.
+//////////////////////////////////////////////////////////////////////////////////////	
+4.	Advantages:
+		Scala’s complex features provided the better coding and efficiency in performance.
+		Tuples, macros, and functions are the advancements in Scala.
+		It incorporates the object-oriented and functional programming which in turn make it a powerful language.
+		It is highly scalable and thus provides a better support for back-end operations.
+		It reduces the risk associated with the thread-safety which is higher in Java.
+		Due to the functional approach, generally, a user ends up with fewer lines of codes and bugs which result in higher productivity and quality.
+		Due to lazy computation, Scala computes the expressions only when they are required in the program.
+		There are no static methods and variables in Scala. It uses the singleton object(class with one object in the source file).
+		It also provides the Traits concept. Traits are the collection of abstract and non-abstract methods which can be compiled into Java interfaces.
+	Disadvantages:
+		Sometimes, two approaches make the Scala hard to understand.
+		There is a limited number of Scala developers available in comparison to Java developers.
+		It has no true-tail recursive optimization as it runs on JVM.
+		It always revolves around the object-oriented concept because every function is value and every value is an object in Scala.
+	Applications:
+		It is mostly used in data analysis with the spark.
+		Used to develop the web-applications and API.
+		It provide the facility to develop the frameworks and libraries.
+		Preferred to use in back-end operations to improve the productivity of developers.
+		Parallel batch processing can be done using Scala.
+//////////////////////////////////////////////////////////////////////////////////////
+5.	In general, Scala functions are first class values. function declaration & definition have 6 components:
+		1)	def keyword: “def” keyword is used to declare a function in Scala.
+		2)	function_name: It should be valid name in lower camel case. Function name in Scala can have characters like +, ~, &, –, ++, \, / etc.
+		3)	parameter_list: In Scala, comma-separated list of the input parameters are defined, preceded with their data type, within the enclosed parenthesis.
+		4)	return_type: User must mention return type of parameters while defining function and return type of a function is optional. If you don’t specify any return type of a function, default return type is Unit which is equivalent to void in Java.
+		5)	= : In Scala, a user can create function with or without = (equal) operator. If the user uses it, the function will return the desired value. If he doesn’t use it, the function will not return any value and will work like a subroutine.
+		6)	Method body: Method body is enclosed between braces { }. The code you need to be executed to perform your intended operations
+		def function_name ([parameter_list]) : [return_type] = {
+		  // function body}
+//////////////////////////////////////////////////////////////////////////////////////
+6.	Difference between Scala Functions & Methods: Function is an object which can be stored in a variable. But a method always belongs to a class which has a name, signature byte-code etc. Basically, you can say a method is a function which is a member of some object.
+//////////////////////////////////////////////////////////////////////////////////////
+7.	Multiple Inheritance: In Multiple inheritance ,one class can have more than one superclass and inherit features from all parent classes. Scala does not support multiple inheritance with classes, but it can be achieved by traits. Since Scala doesn’t support multiple inheritance with classes, the hybrid inheritance is also not possible with classes. In Scala, we can achieve hybrid inheritance only through traits.
+//////////////////////////////////////////////////////////////////////////////////////
+8.	A string is a sequence of characters. In Scala, objects of String are immutable which means a constant and cannot be changed once created. If you need to append to the original string, then use StringBuilder class.
+//////////////////////////////////////////////////////////////////////////////////////
+9.	Polymorphism in scala is overloading. Method overloading can be done by changing: The number of parameters in two methods. The data types of the parameters of methods. The Order of the parameters of methods. The compiler does not consider the return type while differentiating the overloaded method. But you cannot declare two methods with the same signature and different return type. It will throw a compile-time error.
+//////////////////////////////////////////////////////////////////////////////////////
+10.	Scala has reactive cores and a list of asynchronous libraries and hence Scala is a better choice for implementing concurrency. Scala also includes its own interpreter which can be used to execute instruction directly, without previous compiling. Another key feature is parallel collections library designed to help developers address parallel programming patterns.
+//////////////////////////////////////////////////////////////////////////////////////
+11.	A Case Object is also like an object, which has more attributes than a regular Object. It is a blend of both case classes and object. A case object has some more features than a regular object.
+Below two are important features of case object: 
+	•It is serializable.
+	•It has a by default hashCode implementation.
+//////////////////////////////////////////////////////////////////////////////////////
+12.	ListMap.Immutable maps Implemented by using a list-based data structure. The Scala List class holds a sequenced, linear list of items. We must import scala.collection.mutable.ListMap for ListMap. ListMap collection used only for a small number of elements.
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
